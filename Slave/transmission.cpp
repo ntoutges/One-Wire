@@ -2,7 +2,7 @@
 #include "Arduino.h"
 #include "transmission.h"
 
-byte dataOut = 0b01101100;
+byte dataOut = 0b01101100; // test pattern
 byte dataIn;
 bool newData = false;
 
@@ -86,4 +86,8 @@ bool isNewData() {
     return true;
   }
   return false;
+}
+
+void setNewData(byte data) {
+  dataOut = data;
 }

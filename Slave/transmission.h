@@ -6,6 +6,7 @@
 #define BITS 8
 
 void transmit_loop();
-void isNewData();
+void setData(byte data);
+bool isNewData();
 
 #endif
