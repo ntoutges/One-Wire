@@ -75,7 +75,7 @@ void transmit_loop() {
       Serial.println(dataOut);
       newData = true;
       digitalWrite(TRANSMIT_PIN, LOW);
-      tstate = UI_T_IDLE;
+      tstate = UI_T_INIT;
       break;
   }
 }
