@@ -1,0 +1,1 @@
+D:/Arduino/One Wire/Class/SigmaSignalCore/sigmaSignalCore.h
